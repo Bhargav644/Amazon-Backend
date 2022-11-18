@@ -1,5 +1,3 @@
-
-from pickle import TRUE
 from flask import Flask, request
 from db import getData, setData
 import bcrypt
@@ -63,8 +61,8 @@ def fetchNavImage():
 
 @app.route("/BackgroundImages", methods=["POST", "GET"])
 def fetchBGImage():
-    if request.method == "POST":
-        BackImages()
+    # if request.method == "POST":
+    # BackImages()
     return getData("BackgroundImages")
 
 
