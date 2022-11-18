@@ -1,6 +1,4 @@
-from xml.dom.minidom import Element
 
-from matplotlib.pyplot import title
 from db import getData
 from script import getHTMLParser
 from db import setData

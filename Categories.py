@@ -1,5 +1,3 @@
-
-from pickletools import uint2
 from script import getHTMLParser
 from db import setData, getData
 from bs4 import BeautifulSoup
