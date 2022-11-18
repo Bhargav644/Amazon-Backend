@@ -1,0 +1,1 @@
+web: gunicorn Amazon-Backend/server:app
