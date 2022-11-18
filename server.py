@@ -7,7 +7,7 @@ from CardsLayouts import Cards
 from HeaderImage import Image
 from password import salt
 from flask.helpers import send_from_directory
-from BackgroundImages import BackImages
+# from BackgroundImages import BackImages
 from Footer import Footer
 from Searching import Searching
 app = Flask(__name__)
