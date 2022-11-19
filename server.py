@@ -10,8 +10,10 @@ from flask.helpers import send_from_directory
 # from BackgroundImages import BackImages
 from Footer import Footer
 from Searching import Searching
+from flask_cors import CORS
 app = Flask(__name__)
 #!Categories
+CORS(app)
 
 
 @app.route("/Categories", methods=["POST", "GET"])
