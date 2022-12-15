@@ -7,7 +7,7 @@ from CardsLayouts import Cards
 from HeaderImage import Image
 from password import salt
 from flask.helpers import send_from_directory
-from BackgroundImages import BackImages
+# from BackgroundImages import BackImages
 from Footer import Footer
 from Searching import Searching
 from flask_cors import CORS
@@ -63,8 +63,8 @@ def fetchNavImage():
 
 @app.route("/BackgroundImages", methods=["POST", "GET"])
 def fetchBGImage():
-    if request.method == "POST":
-        BackImages()
+    # if request.method == "POST":
+    #     BackImages()
     return getData("BackgroundImages")
 
 
